@@ -76,6 +76,7 @@ const PORTFOLIO_DATA = {
       id: 1,
       title: "Cinema AI",
       description: "A web interface for exploring cinema-related information with an interactive and responsive frontend. Built with modular UI components for scalability.",
+      newdescription: "",
       tech: ["TypeScript", "React"],
       github: "https://github.com/toni8283/CINEMA_AI",
       live: "https://cinema-ai-jxj8.vercel.app/",
@@ -86,6 +87,7 @@ const PORTFOLIO_DATA = {
       id: 2,
       title: "VC Intelligence Interface",
       description: "Responsive interface for accessing venture capital and startup intelligence data. Features reusable components and efficient data visualization.",
+      newdescription: "Features include global search with multi-filter support (industry, stage, funding), live AI-powered company enrichment that fetches and analyzes public website data server-side, smart list management with CSV export, saved search queries, and internal team annotations. Built with Next.js 14, TypeScript, Tailwind CSS, and Zustand for persistent state with all enrichment API keys secured server-side via Next.js API routes, never exposed to the browser.",
       tech: ["TypeScript", "React"],
       github: "https://github.com/toni8283/VC_intelligence_interface",
       live: "https://vc-intelligence-interface-gamma.vercel.app/",
@@ -96,6 +98,7 @@ const PORTFOLIO_DATA = {
       id: 3,
       title: "MERN E-commerce Platform",
       description: "Full-stack e-commerce web application with product browsing, REST APIs, and dynamic content rendering. Complete user experience from browse to checkout.",
+      newdescription: "",
       tech: ["MongoDB", "Express", "React", "Node.js"],
       github: "https://github.com/toni8283/eCommerce_website",
       live: "",
@@ -106,6 +109,7 @@ const PORTFOLIO_DATA = {
       id: 4,
       title: "TB Fitness App",
       description: "Mobile fitness tracking app with 4 screens (Login, Home, Stats, Profile). Features custom activity ring component with circular progress indicators.",
+      newdescription: "",
       tech: ["Figma", "UI Design"],
       github: "",
       live: "https://www.figma.com/design/wYtExxpe1ckjiBV8lhrYeq/Fitness-App?node-id=0-1&t=tmTLtzM3oDWArtwS-1",
@@ -116,6 +120,7 @@ const PORTFOLIO_DATA = {
       id: 5,
       title: "RMgX Workspace",
       description: "End-to-end UX design for an internal employee platform. Includes moodboard, IA, wireframes, and interactive HTML/CSS/JS prototype.",
+      newdescription: "",
       tech: ["Figma", "UX Research", "Prototyping"],
       github: "",
       live: "https://www.figma.com/design/yy4v0EPCy2T8ZBquTW2ar5/RMgx-Workspace-design?t=tmTLtzM3oDWArtwS-1",
@@ -126,6 +131,7 @@ const PORTFOLIO_DATA = {
       id: 6,
       title: "AlgoZenith Ad Design",
       description: "Bilingual social media ad targeting placement-prep students. Features stop-scroll hook with before/after comparison layout.",
+      newdescription: "",
       tech: ["Canva", "Visual Design"],
       github: "",
       live: "https://www.figma.com/design/4czcodsO75JYu8PSsTLjWL/Homepage?node-id=0-1&t=tmTLtzM3oDWArtwS-1",
@@ -485,9 +491,14 @@ function ProjectsSection() {
                 <h3 className="text-xl font-medium mb-2 group-hover:text-[var(--terracotta)] transition-colors">
                   {project.title}
                 </h3>
-                <p className="text-sm text-[var(--warm-gray)] mb-4 line-clamp-3">
+                <p className="text-[0.7rem] leading-6 text-[var(--terracotta)] mb-4">
                   {project.description}
                 </p>
+                {project.newdescription ? (
+                  <p className="text-sm leading-7 text-[var(--warm-gray)] mb-4">
+                    {project.newdescription}
+                  </p>
+                ) : null}
                 <div className="flex flex-wrap gap-2">
                   {project.tech.map((tech, i) => (
                     <span key={i} className="text-xs px-3 py-1.5 bg-[var(--sand)] rounded-full text-[var(--warm-gray)]">

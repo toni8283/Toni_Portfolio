@@ -75,8 +75,8 @@ const PORTFOLIO_DATA = {
     {
       id: 1,
       title: "Cinema AI",
-      description: "A web interface for exploring cinema-related information with an interactive and responsive frontend. Built with modular UI components for scalability.",
-      newdescription: "",
+      description: "A full-stack web app that combines live movie data with AI sentiment analysis to give you more than just ratings, it tells you how the world feels about a film.",
+      newdescription: "Search any movie by its IMDb ID to get a complete profile: poster, plot, cast, ratings, and release info pulled from the OMDb API. Alongside that, the app sends the title and plot to Google Gemini for a sentiment classification, positive, mixed, or negative, surfaced through a clean UI. Built to practice full-stack Next.js concepts including App Router, server-side API routes, and client-server data flow, with a sleek Netflix-inspired red/black theme.",
       tech: ["TypeScript", "React"],
       github: "https://github.com/toni8283/CINEMA_AI",
       live: "https://cinema-ai-jxj8.vercel.app/",
@@ -97,8 +97,8 @@ const PORTFOLIO_DATA = {
     {
       id: 3,
       title: "MERN E-commerce Platform",
-      description: "Full-stack e-commerce web application with product browsing, REST APIs, and dynamic content rendering. Complete user experience from browse to checkout.",
-      newdescription: "",
+      description: "A fully functional e-commerce platform built end-to-end from authentication and product management to cart, checkout, and an analytics-driven admin dashboard.",
+      newdescription: "Wyrm Store implements the complete shopping workflow: user registration and login with JWT authentication, protected cart and checkout flows, order tracking with pay/cancel actions, and a role-based admin panel with sales analytics (last 30 days), inventory management, user role controls, and order status updates. Product images are handled via Cloudinary for scalable catalog management. The backend exposes 20+ RESTful API endpoints across auth, products, cart, orders, and admin.",
       tech: ["MongoDB", "Express", "React", "Node.js"],
       github: "https://github.com/toni8283/eCommerce_website",
       live: "",

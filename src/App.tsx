@@ -38,7 +38,7 @@ const PORTFOLIO_DATA = {
   
   // About Section
   about: {
-    description: `I'm a passionate UI/UX Designer and Frontend Developer currently pursuing a Dual Degree in Ocean Engineering & Naval Architecture at IIT Kharagpur. With a unique blend of engineering systems thinking and creative design skills, I craft digital experiences that are both functional and beautiful.`,
+    description: `I am an Ocean Engineering student at IIT Kharagpur, passionate about building intelligent systems and impactful digital products. My focus is on Artificial Intelligence and full-stack development, where I aim to create solutions that solve real-world problems at scale. I am not just interested in coding, I am driven to build products that people actually use. I believe technology should be simple and accessible, so I design applications with a strong focus on UI/UX, ensuring that even non-technical users can use them without confusion or complexity. Currently, I am learning, experimenting, and working towards creating something big in the tech space.`,
     education: [
       {
         school: "Indian Institute of Technology, Kharagpur",

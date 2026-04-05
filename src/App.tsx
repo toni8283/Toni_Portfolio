@@ -491,7 +491,7 @@ function ProjectsSection() {
                 <h3 className="text-xl font-medium mb-2 group-hover:text-[var(--terracotta)] transition-colors">
                   {project.title}
                 </h3>
-                <p className="text-[0.7rem] leading-6 text-[var(--terracotta)] mb-4">
+                <p className="text-[0.77rem] leading-6 text-[var(--terracotta)] mb-4">
                   {project.description}
                 </p>
                 {project.newdescription ? (

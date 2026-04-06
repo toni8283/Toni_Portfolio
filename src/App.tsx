@@ -32,7 +32,7 @@ const PORTFOLIO_DATA = {
   // Social Links
   socials: {
     github: "https://github.com/toni8283",
-    linkedin: "https://www.linkedin.com/in/toni-blair-a61b57297/",
+    linkedin: "https://www.linkedin.com/in/mrtoniblair/",
     behance: "https://behance.net/toniblair",
   },
   
